@@ -1,0 +1,30 @@
+/* reset 重置 */
+*, *:before, *:after { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+fieldset, img { border: 0 }
+ul, li { list-style: none }
+input, textarea, select { font: inherit inherit inherit; border: none; -webkit-appearance: none; }
+button, input[type="submit"] { border: none; background: none; appearance: none; outline: none }
+a { -webkit-touch-callout: none; text-decoration: none }
+body { font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica; text-size-adjust: none; }
+
+/* float 浮动 */
+.fl {float:left; display:inline;}
+.fr {float:right; display:inline;}
+.clearfix {zoom:1;}
+.clearfix:after {display:block; visibility:hidden; width:0; height:0; line-height:0; font-size:0; clear:both; content:".";}
+
+/* page */
+.wrap { width: 100%; height: 100%; margin: 0 auto; overflow: hidden;}
+.main1 { height: 1861px; background: url("../images/bg.jpg") top center no-repeat; }
+
+.content { width: 640px; margin: 0 auto; padding-top: 10px;}
+
+.form { width: 450px; margin: 920px 0 0 210px;}
+.form .tr { height: 40px; line-height: 25px; margin-bottom: 20px;}
+.form .tr span { width: 137px; font-size: 20px; color: #fff;margin-left: -100px;}
+.form .tr input {margin-left:-120px;border-radius:10px; width:500px;  height: 60px; line-height: 20px; padding: 0 10px; border:1px solid #e8e8e8; box-shadow:0px 0px 3px rgba(0,0,0,.3) inset; -webkit-box-shadow:0px 0px 3px rgba(0,0,0,.3) inset; font-size: 16px; }
+
+.form .tr .btn-submit {border-radius:5px; width: 255px; height: 30px; line-height: 30px; margin-left: -20px; margin-top:-70px; text-align: center; display: block;}
+
+.color1 { color: #fff}
+.color2 { color: #5e5c5c}
